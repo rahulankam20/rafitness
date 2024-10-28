@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Bungee+Tint&family=Matemasie&family=New+Amsterdam&display=    Baskervville+SC&display=swap"
+        rel="stylesheet">
+    <title>AR Fitness</title>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <img src="RA_logo.png" alt="logo">
+            <p class="green">Fitness</p>
+        </div>
+        <ul class="nav-links">
+            <li> <a class="nav-link" href="#membership">Membership</a></li>
+            <li> <a class="nav-link" href="#amenities">Amenities</a></li>
+            <li> <a class="nav-link" href="#aboutUs">About Us</a></li>
+            <li> <a class="nav-link" href="#contact">Contact</a></li>
+            <li> <a class="white"  href="freeTrail.html">Book A Free Trial </a></li>
+        </ul>
+    </nav>
+    <main>
+        <img class="fitness-logo full-width" src="fitness-logo.jpg" alt="cover_page">
+        <div class="freeTrailBg full-height full-width">
+            <div id="free-trail" class="freeTrialText full-height full-width">
+                <div class="mainText animation">Book Your Free Trail Now!! </div>
+                <p class="belowText animation"> One of the Best GYM in Mumbai. </p>
+                <a class="green animation" href="freeTrail.html">Book Now</a>
+            </div>
+        </div>
+        <div id="membership" class="membership content-centre full-height">
+            <div class="pricelistText animation">
+                <div class="yellow"> GYM </div> PRICELIST
+            </div>
+            <div class="boldline"></div>
+            <div class="priceDetails content-centre full-width">
+                <div class="basic green">
+                    <div class="plan"><span class="animation green">Basic plan</span></div>
+                    <ul class="details">
+                        <li class="animation">ALL Equipments</li>
+                        <li class="animation">NO Cardio</li>
+                        <li class="animation">NO Steam</li>
+                        <li class="animation">No Trainer</li>
+                    </ul>
+                    <div class="price animation">₹1500/month</div>
+                </div>
+                <div class="premium green">
+                    <div class="plan "><span class="animation green">Premium plan</span></div>
+                    <ul class="details">
+                        <li class="animation">ALL Equipments</li>
+                        <li class="animation">Cardio</li>
+                        <li class="animation">Steam</li>
+                        <li class="animation">No Trainer</li>
+                    </ul>
+                    <div class="price white animation">₹3000/month</div>
+                </div>
+                <div class="platinum green">
+                    <div class="plan"><span class="animation green">Platinum Plan</span></div>
+                    <ul class="details">
+                        <li class="animation">ALL Equipments</li>
+                        <li class="animation">Cardio</li>
+                        <li class="animation">Steam</li>
+                        <li class="animation">Personal Trainer</li>
+                    </ul>
+                    <div class="price animation">₹4500/month</div>
+                </div>
+            </div>
+        </div>
+        <div id="amenities" class="amenities full-height">
+            <div class="amenity-text"><span class="animation yellow">Amenities</span></div>
+            <div class="slides animation">
+                <img class="slide" class="slide" src="gym1.jpg" alt="">
+                <img class="slide" src="gym2.jpg" alt="">
+                <img class="slide" src="gym3.jpg" alt="">
+                <img class="slide" src="gym4.jpg" alt="">
+                <img class="slide" src="gym5.jpg" alt="">
+                <img class="slide" src="gym6.jpg" alt="">
+                <img class="slide" src="gym7.jpg" alt="">
+            </div>
+            <div class="imgPosition">
+                <div class="circle" onclick="currentSlide(0)"></div>
+                <div class="circle" onclick="currentSlide(1)"></div>
+                <div class="circle" onclick="currentSlide(2)"></div>
+                <div class="circle" onclick="currentSlide(3)"></div>
+                <div class="circle" onclick="currentSlide(4)"></div>
+                <div class="circle" onclick="currentSlide(5)"></div>
+                <div class="circle" onclick="currentSlide(6)"></div>
+            </div>
+        </div>
+        <div id="aboutUs" class="aboutUs full-height content-centre">
+            <div class="aboutUsText">
+            <div class="heading yellow animation">Hello, we are AR Fitness!</div>
+            <div class="msg animation">AR Fitness is a premium gym with a spacious ambience & has every single thing that you need in order to start your fitness journey. General trainers have an incredible involvement with the gym members. They seems to be the personal trainers. The vibe & aura is different here.</div>
+            
+            <div class="freeDemo animation">Definitely book a <b class="yellow" >free gym tour</b>  to experience the vibe as it is worth the visit.</div>
+        </div>
+        <div class="bigLogo content-centre animation"><img src="RA_logo.png" alt="logo">
+        <div class="logoText animation"> <span class="yellow logoText">AR</span> Fitness</div></div>
+        </div>
+        <div id="contact" class="contact content-centre full-height">
+            <div class="contactLeft">
+            <div class="contactForm">
+                <p class="contactHeading animation"> <span class="green">Contact</span>  US!</p>
+                <input class="form green animation" type="text" placeholder="Name*" name="Name" >
+                <input class="form green animation"type="text" placeholder="Contact*" name="Contact">
+                <input class="form green animation"type="email" placeholder="Email(Optional)" name="Email ">
+                <textarea class="green animation" placeholder="Message(Optional)" name="Message" rows="4" cols="100%"></textarea>
+            </div>
+        </div>
+        <div class="contactRight">
+            <p class="contactHeading animation"><span class="green">Social</span> Handles</p>
+            <div class="icons green animation"><img src="instagram.png" alt="instagramLogo"> ar_fitness</div>
+            <div class="icons green animation"><img src="facebook.png" alt="facebookLogo"> AR Fitness</div>
+            <div class="icons green animation"><img src="whatsapp.png" alt="whatsappLogo"> +91 8425094452</div>
+        </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footerContent">
+        <div class="footerLocation">
+            <p class="animation"> Location </p>
+            <a class="animation" href="#">Lorem, ipsum dolor <div>sit amet consectetur</div>  adipisicing elit.</a>
+        </div>
+        <div class="footerPages">
+            <p class="animation"> Pages </p>
+            <ul>
+                <li class="animation">About Us</li>
+                <li class="animation">Book Now</li>
+                <li class="animation">Privacy Policy</li>
+                <li class="animation">Terms & Conditions</li>
+                <li class="animation">Amenities</li>
+                <li class="animation">Locate Us</li>
+            </ul>
+        </div>
+        <div class="footerFollowUs">
+            <p class="animation"> Follow us </p>
+            <ul>
+                <li class="animation"><a href="">Facebook</a></li>
+                <li class="animation"><a href="">Instagram</a></li>
+                <li class="animation"><a href="">Twitter</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="copyright content-centre">
+       Copyright <span> &copy </span> 2024 AR fitness
+    </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
